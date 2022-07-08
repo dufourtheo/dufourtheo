@@ -1,6 +1,5 @@
 # Hi, I'm Theo Dufour! 👋
 
-Welcome to my github page
 
 <h3 align="center">A passionate cyberseucrity student from France</h3>
 
