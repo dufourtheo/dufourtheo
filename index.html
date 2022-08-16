@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Theo Dufour | Portfolio </title>
+    <link rel="icon" href="img/favicon.ico" />
+
+    <!-- == CSS ==-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- == FONT == -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+
+</head>  
+<header>
+    <div class="user">
+        <img src="img/photo.jpg" alt="pdp">
+        <h3 class="name">Theo Dufour</h3>
+        <p class="post">Cybersecurity Student</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<body>
+
+
+
+    <div class="container">
+
+        <section class="home" id="home">
+    
+            <h3>salut...</h3>
+            <h3 class="name">Mon nom est <span>Theo Dufour</span></h3>
+            <h3 class="post">Je suis un <span class="typing-text">Cybersecurity Student</span></h3>
+    
+            <a href="#"><button class="btn">Engagez moi</button></a>
+    
+            <div class="share">
+                <a href="https://github.com/dufourtheo" target="_blank" class="fab fa-github fa-lg"></a>
+                <a href="https://www.youtube.com/channel/UCZw-Ikw2HiOY9qLNhRLScZw" target="_blank" class="fab fa-youtube"></a>
+                <a href="pdf/cvtheodufour.pdf" download="" target="_blank" class="fa fa-file"></a>
+                <a href="https://hackcess.org" target="_blank" class="fa fa-globe"></a>
+            </div>
+    
+        </section>
+    
+        <!-- about section  -->
+    
+        <section class="about" id="about">
+    
+            <h1 class="heading">À propos de moi</h1>
+    
+            <div class="content">
+                <h3 class="name">Mon nom est <span>Dufour Theo</span></h3>
+                <p>Actuellement en deuxième année en But Réseaux & Télécommunication options cybersécurité à Roanne . 
+                    J'ai décidé de m'orienter en cybersécurité car depuis tout petit je suis passionné par l'informatique et tout ce qui l'entoure .
+                    J'ai aussi pu créer au sein de mon université un club informatique nommée " Hackcess " axé sur la cybersécurité afin de proposer des conférences, 
+                    des vidéos pour données une conscience numérique à tout ce qui s'intéresse sur divers sujets . 
+                 
+                </p>
+                <p>Je vous souhaite également la bienvenue sur mon portfolio de compétences.</p>
+            </div>
+    
+            <div class="skills">
+                <div class="progress">
+                    <h3>HTML / CSS / PYTHON<span>95%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>DOCKER <span>85%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>KALI LINUX<span>65%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+    
+        </section>
+
+    
+        <!-- contact section  -->
+        <section class="contact" id="contact">
+    
+            <h1 class="heading">Contactez moi</h1>
+    
+            <div class="row">
+    
+                <form action="https://formspree.io/f/moqbqpgn" method="POST">
+                    <input type="text" name="prenom" class="box"  required="required" placeholder="Prénom">
+                    <input type="text" name="nom" class="box" required="required" placeholder="Nom">
+                    <input type="email" name="email" required="required" class="box" placeholder="Mail">
+                    <label><input type="text" name="projet" class="box" required="required" placeholder="Votre Projet"></label>
+                    <textarea name="message" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                    <input type="submit" value="Envoyez" class="btn">
+                </form>
+    
+                <div class="content">
+                    <div class="icons">
+                        <h3><i class="fas fa-map-marker-alt"></i> address </h3>
+                        <p>Roanne, France, 42300</p>
+                    </div>
+                    <div class="icons">
+                        <h3><i class="fas fa-envelope"></i> Email </h3>
+                        <p>theodufour.promail@gmail.com</p>
+                    </div>
+                    <div class="icons">
+                        <h3><i class="fas fa-phone"></i> Telephone </h3>
+                        <p>+33 07-82-83-81-96</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </section>
+    
+    </div>
+    
+    <!-- content section ends -->
+    
+    <!-- theme toggler  -->
+    
+    <div class="theme-toggler">
+        <span style="background: linear-gradient(#ad5389, #3c1053);"></span>
+        <span style="background: linear-gradient(#22c1c3, #fdbb2d);"></span>
+        <span style="background:linear-gradient(#3f5efb, #fc466b)"></span>
+        <span style="background:linear-gradient(#8360c3, #2ebf91)"></span>
+        <span style="background:linear-gradient(#f12711, #f5af19)"></span>
+    </div>
+    
+    
+    <!-- type.js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    
+    <script>
+    
+        var type = new Typed('.typing-text',{
+            strings : [ 'Cybersecurity Student', 'Etudiant en Cybersecurite', 'Cybersecurity Student', 'Cybersecurity Student' ],
+            typeSpeed: 120,
+            loop:true
+        });
+    
+        let themeColor = document.querySelectorAll('.theme-toggler span');
+        themeColor.forEach(color => color.addEventListener('click', () =>{
+            let background = color.style.background;
+            document.querySelector('body').style.background = background;
+        }));
+    
+    </script>
+    
+    </body>
+    
+
+
+       
+
+</body>  
+</html>
