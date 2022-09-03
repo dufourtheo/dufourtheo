@@ -320,22 +320,44 @@ header .navbar ul li a:hover{
         background:linear-gradient(#3700ff, #ffffff);
         padding:0.5rem;
     }
+    .btn{
+        font-size: 1.2rem;
+
+        background:rgba(255,255,255,.2);
+        color:#fff;
+        border-radius: 0.2rem;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.2);
+        margin-top: 0.5rem;
+        cursor: pointer;
+        transition:.2s linear;
+    }
+
 
     section{
         padding:0.5rem 2%;
         min-height: 100%;
     }
-    .btn{
-        font-size: 1rem;
-        padding:.3rem 4rem;
-        background:rgba(255,255,255,.2);
-        color:#fff;
-        border-radius: 0.23rem;
-        box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
-        margin-top: 1rem;
-        cursor: pointer;
-        transition:.2s linear;
+    header .navbar{
+        padding:0.2rem 0.2rem;
+      
+       
     }
+    header .navbar ul li{
+        margin:0.5rem 0;
+        list-style: none;
+    }
+    header .navbar ul li a{
+        display: block;
+        padding:2rem;
+        font-size: 1.2rem;
+        color:#fff;
+        background:rgba(255,255,255,.2);
+        box-shadow: 0 1rem 0.2rem rgba(0,0,0,.2);
+        border-radius: 0.2rem;
+        transition: all .2s linear;
+        width: 100%;
+    }
+
     .heading{
         font-size: 2rem;
         text-align: center;
@@ -356,9 +378,13 @@ header .navbar ul li a:hover{
         padding-top: 3rem;
     }
     header .user .name{
-        font-size: 2rem;
+        font-size: 1.8rem;
         color:#fff;
         padding:.5rem 0;
+    }
+    .section .home{
+        width: 400%;
+        height: 100%;
     }
     .home{
         display: flex;
@@ -374,17 +400,62 @@ header .navbar ul li a:hover{
         color:#eee;
     }
     .home .name span{
-        font-size: 2rem;
+        font-size: 1.4rem;
         color:#fff;
     }
     .home .post span{
         font-size: 1.5rem;
         color:#fff;
     }
+    .home .share{
+        position: absolute;
+        left:50%; bottom:15rem;
+        transform: translateX(-50%);
+        display: flex;
+        padding:0.2rem;
+        border-radius: 0.2rem;
+        background: rgba(255,255,255,.1);
+        box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+        transition: .2s linear;
+    }
+    .home .share a{
+        background: rgba(255,255,255,.2);
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.2);
+        padding:0.5rem 0.8rem;
+        margin:0.2rem;
+        color:#fff;
+        font-size: 1.4rem;
+        border-radius: 0.4rem;
+    }
+    .about .content h3{
+        font-size: 1.75rem;
+        color:#eee;
+    }
+    .about .content p{
+        font-size: 1.2rem;
+        color:#eee;
+        padding:.2.5rem 0;
+    }
+    .about .skills{
+        padding:0.5rem 0;
+    }
+    
+    .about .skills .progress{
+        margin:0.75rem 0;
+        padding:0.5rem;
+        box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+        background: rgba(255,255,255,.2);
+        border-radius: 0.5rem;
+    }
+    .about .skills .progress h3{
+        display: flex;
+        font-size: 0.98rem;
+        color:#fff;
+    }
     .theme-toggler span{
         display: block;
-        height:2rem;
-        width:2rem;
+        height:1.5rem;
+        width:1.5rem;
         border-radius: 50%;
         cursor: pointer;
         margin:2rem 2.5rem;
