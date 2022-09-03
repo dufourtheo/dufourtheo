@@ -11,12 +11,12 @@
 
 ## FAQ
 
-#### Pourquoi j'ai choisi l'informatique ?  
+#### Pourquoi j'ai choisi l'informatique 🇫🇷 ?  
 
 Je suis passionnée depuis tout petit par l'informatique et le monde qui l'entoure, j'ai tout de suite voulu m'oriente là-dessus lors de mon stage en 3ème.
 Puis par la suite arrivée en terminale j'ai choisi une filière informatique et me voilà maintenant en deuxième année en cybersécurité à l'iut de Roanne . 
 
-#### Why did I choose IT Google (Android 12L) ?
+#### Why did I choose IT 🗺️?
 
 
 I have been passionate about computers and the world around them since I was little, I immediately wanted to orient myself on this during my internship in 3rd grade.
