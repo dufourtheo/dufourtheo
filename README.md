@@ -3,6 +3,11 @@
 
 <h3 align="center">A passionate cyberseucrity student from France</h3>
 
+- 🌍 France
+
+- ✉️ Vous pouvez me contacter à theodufour.promail@gmail.com
+
+- 🤝 Je suis ouvert à collaborer sur des projets open-source ou personnels.
 
 
 <h3 align="left">Languages and Tools Learn:</h3>
