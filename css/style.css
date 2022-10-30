@@ -8,7 +8,7 @@
 }
 
 :root {
-    --greenColor: #78cc6d;
+    --greenColor: #8edb82;
     --blackColor: #171717;
     --textColor: #646464;
     --mediumGray: #626262;
@@ -244,7 +244,7 @@ header .top-menu ul {
 }
 
 header .top-menu ul li {
-    min-width: 20%;
+    min-width: 25%;
     background-color: var(--whiteColor);
 }
 
@@ -1168,3 +1168,6 @@ header .top-menu ul li:hover a .link {
 }
 
 /* End Contact Section  */
+
+.hackcess{
+    font-size: small;
