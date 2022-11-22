@@ -36,4 +36,4 @@ Then later arrived in terminal I chose a computer science course and here I am n
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=dufourtheo&icon=0&color=0)](https://visitcount.itsvg.in)
+
