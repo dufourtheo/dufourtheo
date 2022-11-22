@@ -27,3 +27,6 @@ Puis par la suite arrivée en terminale j'ai choisi une filière informatique et
 I have been passionate about computers and the world around them since I was little, I immediately wanted to orient myself on this during my internship in 3rd grade.
 Then later arrived in terminal I chose a computer science course and here I am now in second year in cybersecurity at the iut de Roanne.
 
+
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://fr.linkedin.com/in/dufourtheo) 
