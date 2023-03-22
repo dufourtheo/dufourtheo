@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+/* Couleur projet  */
 :root {
     --greenColor: #8edb82;
     --blackColor: #171717;
@@ -379,13 +379,46 @@ header .top-menu ul li:hover a .link {
 
 .hero .social a i {
     position: relative;
-    color: var(--blackColor);
+    /*color: var(--blackColor);*/
     font-size: 3.6rem; /*TAILLE LOGO*/
     transition: all .3s;
 }
 
+.hero .social a i {
+    position: relative;
+    text-decoration: none;
+    /*color: var(--blackColor);*/
+    font-size: 3.6rem; /*TAILLE LOGO*/
+    transition: all .3s;
+}
+
+
 .hero .social a:hover i:hover {
     color: var(--greenColor);
+
+
+}
+.hero .social .linkedin {
+
+    color: rgb(0, 85, 164);
+ 
+}
+
+.hero .social .github {
+
+    color: rgb(239, 65, 53);
+ 
+}
+
+.hero .social .rootme{
+
+    background-color: rgb(255, 255, 255);
+ 
+}
+.hero .social .rootme:hover{
+
+    background-color: var(--greenColor);
+ 
 }
 
 .hero .links {
@@ -453,7 +486,8 @@ header .top-menu ul li:hover a .link {
 /* End Hero Section  */
 /* Start About Section  */
 .about-me .row .text {
-    padding: 3rem .5rem;
+    padding: 3.8rem .5.6rem;
+  
 }
 
 .about-me .row .text p {
