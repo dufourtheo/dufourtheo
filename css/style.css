@@ -412,6 +412,7 @@ header .top-menu ul li:hover a .link {
 
 .hero .social .rootme{
 
+    position: relative;
     background-color: rgb(255, 255, 255);
  
 }
