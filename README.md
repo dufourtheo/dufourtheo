@@ -29,7 +29,7 @@ Then later arrived in terminal I chose a computer science course and here I am n
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://fr.linkedin.com/in/dufourtheo) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dufourtheo/) 
 
 
 ### ✍️ Inspirational quote
