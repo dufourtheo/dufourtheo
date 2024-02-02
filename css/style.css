@@ -526,12 +526,13 @@ header .top-menu ul li:hover a .link {
     .about-me .row .text p {
         font-size: 1.5rem;
     }
+    
 
 
 }
 
 @media(min-width: 1200px) {
-
+    
     .about,
     .resume,
     .work,
@@ -552,7 +553,7 @@ header .top-menu ul li:hover a .link {
     .about-me .row .text {
         padding: 3rem 3rem 3rem 0;
     }
-
+   
  
 }
 
@@ -565,6 +566,15 @@ header .top-menu ul li:hover a .link {
     .contact {
         left: 45%;
     }
+
+}
+
+@media(max-width: 1234px) {
+
+   .work button {
+    display: inline-block;
+   }
+
 }
 
 /* End About Section  */
@@ -629,6 +639,12 @@ header .top-menu ul li:hover a .link {
         width: 100%;
         height: .2rem;
         background: radial-gradient(ellipse at left, rgba(197, 202, 213, .7) 0, rgba(255, 255, 255, 0) 70%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    select {
+        display: none;
     }
 }
 

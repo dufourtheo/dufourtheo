@@ -151,9 +151,17 @@
                         </div>
 
                         <div class="exp-box">
-                            <span>Avril 2023 - Juin 2023</span>
+                            <span>Juillet 2023 - ACTUELLEMENT (Alternance)</span>
+                            <h4>Apprenti Technicien Cybersécurité</h4>
+                            <h5>TELEFLOW (Groupe Michelin)</h5>
+                            <p>
+                                Contribution à l'élaboration de la politique de sécurité informatique.
+                                Mise en œuvre des dispositifs de sécurisation conformément aux directives établies.
+                            </p>
+                           
+                            <span>Avril 2023 - Juin 2023 (Stage)</span>
                             <h4>Stagiaire Consultant en Cybersécurité</h4>
-                            <h5>TELEFLOW</h5>
+                            <h5>TELEFLOW (Groupe Michelin)</h5>
                             <p>
                                 Politique Sécurité des systèmes d'informations : revue de la politique
                                 Participation à la politique de sécurité de l'entreprise, participation à la sensibilisation et la formation des usagers, mise en application des moyens de sécurisation
@@ -162,14 +170,14 @@
 
                         <div class="exp-box">
                             <span>Novembre 2021 - ACTUELLEMENT</span>
-                            <h4>Fondateur Hackcess</h4>
+                            <h4>Président Hackcess</h4>
                             <h5>Hackcess</h5>
-                            <p><li class="hackcess">Création du club/association de cybersécurité Hackcess</li>
+                            <p><li class="hackcess">Fondateur du club/association de cybersécurité Hackcess</li>
                            
-                                <li class="hackcess" >Sensibilisation à la cybersécurité<br></li>
-                                <li class="hackcess" >Création de Site Web</li>
+                                <li class="hackcess" >Sensibilisation à la conscience numérique<br></li>
+                                <li class="hackcess" >Création de la plateforme d'apprentissage en ligne dédie à la cybersécurité : <a href="https://erreur502.hackcess.org" target="_blank">erreur502</a></a></li>
                                 <li class="hackcess" >Organisation de conférences</li>
-                                <li class="hackcess" >Aide informatique</li>
+                                <li class="hackcess" >Gestion des partenariats / Gestion des projets</li>
 
                             </p>
                         </div>
@@ -214,7 +222,8 @@
                             <span>2021 - ACTUELLEMENT</span>
                             <h4>But Réseaux & Télécommunication</h4>
                             <h5>Roanne</h5>
-                            <p>Deuxième année bachelor universitaire Réseaux & Télécommunication parcours cybersécurité</p>
+                            <p>Troisièmes année de bachelor universitaire Réseaux & Télécommunication parcours cybersécurité en Alternance</p>
+                            <p> - Diplômé du DUT</p>
                         </div>
                         <div class="edu-box">
                             <span>2019-2021</span>
@@ -391,8 +400,15 @@
         <section id="work" class="work">
             <div class="my-work p-3">
                 <h3 class="specialtitle">Mes<span>Projets</span></h3>
+                <select onchange="filterProjects(this.value)">
+                    <option value="all">Tous les Projets</option>
+                    <option value="projet-2021">2021</option>
+                    <option value="projet-2022">2022</option>
+                    <option value="projet-2023">2023</option>
+                 </select>
+                 
                 <div class="work-container">
-                    <div class="box">
+                    <div class="box projet-2021">
                         <div class="box-img">
                             <a href=https://hackcess.org target="_blank"><img src="img/work-1.jpg" alt="">
                         </div>
@@ -401,7 +417,7 @@
                             <p><span>Hackcess</span> / 21 Novembre 2021</p>
                         </div></a>
                     </div>
-                    <div class="box">
+                    <div class="box projet-2022">
                         <div class="box-img">
                             <a href="pdf/pycess.pdf" target="_blank"><img src="img/work-2.jpg" alt="">
                         </div>
@@ -411,7 +427,7 @@
                         </div>
                     </div>
                     
-                    <div class="box">
+                    <div class="box projet-2022">
                         <div class="box-img">
                             <a href="https://aladecouverteducyber.hackcess.org" target="_blank"><img src="img/work3.jpg" alt="Aladecouverteducyber">
                         </div>
@@ -420,7 +436,7 @@
                             <p><span>Hackcess </span>/ Octobre 2022 - 26 Novembre 2022</p></a>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box projet-2023">
                         <div class="box-img">
                             <a href="pdf/sae302compterendu.pdf " target="_blank"><img src="img/logosae.png" alt="SAE302">
                         </div>
@@ -429,28 +445,24 @@
                             <p><span>Devellopement d'un Client FTP </span>/ Janvier 2023 </p></a>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box projet-2023">
                         <div class="box-img">
                             <a href="https://www.instagram.com/p/CqlHWyMIkSa/?utm_source=ig_web_button_share_sheet" target="_blank"><img src="img/work-3.jpg" alt="">
                         </div>
                         <div class="box-content">
                             <h4>Mars@Hack</h4>
-                            <p><span>Participation au CTF - Mars@Hack </span>/ 29 Mars. 2023</p></a>
+                            <p><span>Participation au CTF - Mars@Hack </span>/ 29 Mars 2023</p></a>
                         </div>
                     </div>
-                <!--
-                    <div class="box">
+                    <div class="box projet-2023">
                         <div class="box-img">
-                            <img src="img/work-6.jpg" alt="">
+                            <a href="https://iut-roanne.univ-st-etienne.fr/fr/les-derniers-faits-marquants/annee-2023-2024/zoom-sur/le-club-hackcess-4e-au-concours-csaw.html" target="_blank"><img src="img/csaw.jpg" alt="">
                         </div>
                         <div class="box-content">
-                            <h4>studio big bang</h4>
-                            <p><span>Web Design </span>/ 18 Sep. 2018</p>
+                            <h4>CSAW 2023</h4>
+                            <p><span>Participation au CSAW 2023 - Valence </span>/ 9-10 Novembre 2023</p></a>
                         </div>
                     </div>
-                </div>
-            </div>
-        -->
         </section>
         <!-- 
         <section id="blog" class="blog">
@@ -544,6 +556,29 @@
             </div>
         </section>
     </div>
+    <script>
+        function filterProjects(year) {
+           var projects = document.querySelectorAll('.box');
+     
+           projects.forEach(function(project) {
+              project.style.display = 'none';
+           });
+     
+           if (year === 'all') {
+              projects.forEach(function(project) {
+                 project.style.display = 'block';
+              });
+           } else {
+              var filteredProjects = document.querySelectorAll('.' + year);
+              filteredProjects.forEach(function(project) {
+                 project.style.display = 'block';
+              });
+           }
+        }
+     </script>
+     
+     
+     
     <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="js/index.js"></script>
