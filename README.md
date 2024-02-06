@@ -5,7 +5,7 @@
 
 - 🌍 France
 
-- ✉️ Vous pouvez me contacter à theodufour@hackcess.org
+- ✉️ Vous pouvez me contacter par mail via l'adresse suivante : theodufour@hackcess.org
 
 - 🤝 Je suis ouvert à collaborer sur des projets open-source ou personnels.
 
